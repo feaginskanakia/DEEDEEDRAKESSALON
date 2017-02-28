@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+             $(document).ready(function(){
+                 $(".call_modal").click(function(){
+                     $(".modal").fadeIn();
+                 });
+             });
+             
+             $(document).ready(function(){
+                 $(".close").click(function(){
+                 $(".modal").fadeOut();
+                 
+                 });
+             });
+         </script>
+         
+             <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css?x25758" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link herf=link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    </head>
+    <body>
+      <div class="flex-container">
+         
+        <h1 id="header-title"><a href="index.html">Loc's 4 Life</a></h1>
+        <br><img src="#" alt="logo">
+        <!-- start of header on nav-bar-->
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="products.html">Products</a></li>
+        </ul>
+    </div>
+    <br>
+    <div class="alphabet">
+        <div id ="slider">
+            <img src="../img/hair1.jpeg" height:400px; width:100%>
+           <!-- <figure>
+            <img src="../img/cat.jpg"></img>
+            <img src="../img/cloud.jpeg"></img>
+            <img src="../img/cloud.jpeg"></img>
+            <img src="../img/star.jpg"></img>
+            <img src="../img/cat.jpg"></img>
+            
+            </figure>-->
+        </div>
+        <!--this is model box popup-->
+    <div class="modal">
+        <div class="modal_bg">
+           <div class="modal_main">
+               <img src="../img/close.jpeg" class="closer close"> 
+            <h2>Book Appointment</h2>
+            <form>
+               
+                Name:
+                <input type="text" name="Name">
+                <br>
+                Email:
+                <input type="email" name="Email">
+                <br>
+                Date
+                <input type="date" name="Date">
+                <br>
+                Time:
+                <input type="time" name="Time">
+                <br>
+                <input type="submit" name="Submit">
+                
+            </form>
+        </div>
+     </div>   
+</div>
+<!--end of model -->
+   <footer>
+         <div class="foot" id="q">
+        <p>Dee Dee Drake's<br>Loc's 4 Life<br>5533 Harford Rd<br>Baltimore,Md</p>
+      <!--this is  the button for model-->
+       <button class="call_modal">Contact</button>
+       <!-- end model-->
+        </div>
+        <div class="foot" id="r" style="font-size:25px;">
+            <i class="fa fa-facebook"></i>
+           <i class="fa fa-envelope"></i>
+        </div>
+        
+       <div class="foot" id="x"><img src="#"></div>
+        &#169 All right reserved.  Site Created And Developed By:Kanakia Feagins
+        </footer>
+        </div>
+    </div>
+   
+    </body>
+    </html>

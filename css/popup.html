@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Test</title>
+         
+         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+             $(document).ready(function(){
+                 $(".call_modal").click(function(){
+                     $(".modal").fadeIn();
+                 });
+             });
+             
+             $(document).ready(function(){
+                 $(".close").click(function(){
+                 $(".modal").fadeOut();
+                 
+                 });
+             });
+         </script>
+         
+         <style type="text/css">
+             body{
+                 margin:0;
+             }
+             button{
+                 padding:20px;
+                 margin:6%;
+                 border-radius:5px;
+                 background:#3399cc;
+                 color:#fff;
+                 font-size:20px;
+                 border:none;
+                 cursor:pointer;
+             }
+             .modal{
+                 display:none;
+                 width:100%;
+                 height:100%;
+                 position:absolute;
+             }
+             .modal_bg{
+                 background:rgba(0,0,0,.6);
+                 height:100%;
+                 width:100%;
+                 position:fixed;
+                 top:0;
+             }
+             .modal_main{
+                 position:fixed;
+                 width:50%;
+                 height:400px;
+                 background:#fff;
+                 border-radius:6px;
+                 top:9%;
+                 left:24%;
+             }
+             img{
+                 width:30px;
+                 height:30px;
+             }
+             .closer{
+                 position:absolute;
+                 top:3%;
+                 right:3%;
+                 cursor:pointer;
+             }
+             
+         </style>
+    </head>
+    <body>
+        <button class="call_modal">Book Appointment</button>
+        <div class="modal">
+        <div class="modal_bg">
+           <div class="modal_main">
+               <img src="../img/close.jpeg" class="closer close"> 
+            <h2>Book Appointment</h2>
+            <form>
+               
+                Name:
+                <input type="text" name="Name">
+                <br>
+                Email:
+                <input type="email" name="Email">
+                <br>
+                Date
+                <input type="date" name="Date">
+                <br>
+                Time:
+                <input type="time" name="Time">
+                <br>
+                <input type="submit" name="Submit">
+                
+            </form>
+        </div>
+     </div>   
+</div>
+    </body>
+</html>

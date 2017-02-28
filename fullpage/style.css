@@ -1,0 +1,63 @@
+body{
+   margin:0px;
+   border:0px;
+   padding-top:70px;
+}
+
+#navbar{
+    width:100%;
+    height:70px;
+    background-color:black;
+    color:white;
+    position: fixed;
+    top:0;
+}
+#linkref{
+    color:white;
+    text-decoration:none;
+    padding: 15px;
+    text-align: center;
+}
+.section{
+    width:100%;
+    height:400px;
+    text-align: center;
+    background-color:rgba(237,234,230,0.9);
+    padding-top:200px;
+   
+}
+.subsect{
+    width:100%;
+    height:350px;
+    background-color:white;
+    
+    
+    
+}
+h2{
+    letter-spacing: 2px;
+    font-size:30px;
+    font-family: 'lobster', cursive;
+}
+h3{
+    letter-spacing: 5px;
+    color:rgb(53,63,63);
+}
+h4{
+    letter-spacing: 2px;
+    color:rgb(87,99,99);
+}
+.butt{
+    width:33%;
+    height:300px;
+    float:right;
+    float:clear;
+    margin:40px;
+}
+button{
+    margin-top: 270px;
+}
+#left{
+    margin:20px 20px 20px 30px;
+}
+
