@@ -1,4 +1,10 @@
+
 .header{
     background:red;
     height:70px;
+}
+.title{
+    background:yellow;
+    font-size:50px;
+    padding-top:10px;
 }
