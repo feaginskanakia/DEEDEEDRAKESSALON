@@ -55,6 +55,7 @@ a:hover{
     justify-content:space-between;
     max-width:800px;
     margin:auto;
+    flex-direction:column;
 }
 .hero{
     opacity:0.6;
@@ -106,6 +107,7 @@ a:hover{
     }
     .content{
         display:flex;
+        flex-direction:row;
     }
     .aboutwrap{
     
