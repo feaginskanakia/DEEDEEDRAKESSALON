@@ -1,29 +1,29 @@
 body{
-    background:rgb(234, 145, 93);
+    background:rgb(255, 248, 232);
 }
 .wrap{
     display:flex;
 }
 .toggle{
     line-height:70px;
-    background:rgb(81, 35, 8);
+    background:rgb(255, 248, 232);
    
 }
 .header{
-    background:rgb(81, 35, 8);
+    background:rgb(255, 248, 232);
     height:70px;
     display:flex;
     justify-content:space-between;
 }
 .title{
-    background:rgb(81, 35, 8);
+    background:rgb(255, 248, 232);
     font-size:50px;
    line-height:70px;
    color:rgb(234, 92, 9);
    
 }
 .nav{
-    background:rgb(81, 35, 8);
+    background:rgb(255, 248, 232);
     display:none;
     line-height:70px;
     justify-content:space-between;
@@ -50,7 +50,7 @@ a:hover{
     cursor:pointer;
 }
 .content{
-    background:rgb(234, 145, 93);
+    background:rgb(255, 248, 232);
     display:flex;
     justify-content:space-between;
     max-width:800px;
@@ -70,6 +70,14 @@ a:hover{
 }
 .map{
     padding-top:50px;
+}
+.products{
+    display:flex;
+    margin:auto;
+    flex-direction:column;
+    justify-content:space-between;
+    max-width:800px;
+    margin-top:20px;
 }
 /*start of about page*/
 .aboutimg{
@@ -102,5 +110,8 @@ a:hover{
     .aboutwrap{
     
     flex-direction:row;
+    }
+    .products{
+       flex-direction:row; 
     }
     }
