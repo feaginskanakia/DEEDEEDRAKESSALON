@@ -21,6 +21,7 @@
         <div class="link"><a href="products2.html">Products</a></div>
         <div class="link"><a href="gallery2.html">Gallery</a></div>
     </div>
+    <div class="drawerclose"></div>
     <div class="header">
         <div class="wrap">
             <div class="toggle">&#x2630</div>
@@ -49,7 +50,11 @@
     <script>
         $(document).ready(function(){
             $('.toggle').on('click',function(){
-                $('.drawer').css('display','block');
+                $('.drawer, .drawerclose').css('display','block');
+               
+            });
+            $('.drawerclose').on('click',function(){
+                $('.drawer, .drawerclose').css('display','none');
             });
         });
     </script>

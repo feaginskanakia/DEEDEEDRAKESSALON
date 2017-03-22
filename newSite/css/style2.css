@@ -124,12 +124,22 @@ a:hover{
 /* start of drawer togle open/close*/
 .drawer{
     position:absolute;
-    width:200px;
-    height:100%;
     background:black;
     z-index: 100;
+    right:200px;
+    bottom:0;
     top:0;
     left:0;
+    display:none;
+}
+.drawerclose{
+    left:200px;
+    top:0;
+    right:0;
+    bottom:0;
+    
+    z-index:100;
+    position:absolute;
     display:none;
 }
 .link{
