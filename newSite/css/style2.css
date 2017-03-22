@@ -4,6 +4,9 @@ body{
 .wrap{
     display:flex;
 }
+/*start of slideout nav*/
+
+/*end of slide out nav*/
 .toggle{
     line-height:70px;
     background:rgb(255, 248, 232);
@@ -14,13 +17,15 @@ body{
     height:70px;
     display:flex;
     justify-content:space-between;
+    font-family:'Times New Roman';
+    
 }
 .title{
     background:rgb(255, 248, 232);
-    font-size:50px;
-   line-height:70px;
-   color:rgb(234, 92, 9);
-   
+    font-size:70px;
+    line-height:70px;
+    color:rgb(234, 92, 9);
+    font-family:'Dancing Script', cursive;
 }
 .nav{
     background:rgb(255, 248, 232);
@@ -33,7 +38,7 @@ body{
    
 } 
  a{
-     color:black;
+     color:rgb(234, 92, 9);
     text-decoration:none;
 }
 a:hover{
@@ -56,18 +61,21 @@ a:hover{
     max-width:800px;
     margin:auto;
     flex-direction:column;
+    color:rgb(234, 92, 9);
+   
 }
 .hero{
-    opacity:0.6;
+    opacity:0.9;
 }
 .address{
     padding-top:70px;
-   
+    color:rgb(234, 92, 9);
     font-family:sans-serif;
     font-size:25px;
 }
 .icon{
    padding-top:90px; 
+  
 }
 .map{
     padding-top:50px;
@@ -84,20 +92,38 @@ a:hover{
 .aboutimg{
     width:600px;
     height:700px;
-    margin:140px 10px 0px 40px;
+    margin:80px 10px 0px 40px;
     
     
 }
 .abouttext{
     width:600px;
     margin:10px 30px 0px 0px;
-    
+    font-family:'Times New Roman';
     
 }
 .aboutwrap{
     display:flex;
     flex-direction:column;
 }
+.flex-container{
+    display:flex;
+    width:auto;
+    height:auto;
+    justify-content:space-around;
+}
+
+.alphabet img{
+    width:200px;
+    height:200px;
+    margin-bottom:10px;
+    border-color: black;
+    
+   
+}
+/*start of image slider on product page*/
+.mySlides {display:none;}
+/*end of slider*/
 @media(min-width:768px) {
     .toggle {
         display: none;
