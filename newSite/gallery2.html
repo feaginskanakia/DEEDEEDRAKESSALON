@@ -10,10 +10,18 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ruthie" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>Loc's 4 Life test</title>
 </head>
 
 <body>
+     <div class="drawer">
+        <div class="link"><a href="index.html">Home</a></div>
+        <div class="link"><a href="about2.html">About</a></div>
+        <div class="link"><a href="products2.html">Products</a></div>
+        <div class="link"><a href="gallery2.html">Gallery</a></div>
+    </div>
+    <div class="drawerclose"></div>
     <div class="header">
         <div class="wrap">
             <div class="toggle">&#x2630</div>
@@ -27,25 +35,7 @@
 </div>
         </div>
         <hr>
-        <h3 style="text-decoration:underline;font-size:22px;color:brown;"><b>Gallery</b></h3>
-        <div class="flex-container">
-        <div class="alphabet"><img src="../img/Capture3.JPG" style="width:200px; height:200px;"></div>
-        <div class="alphabet"><img src="../newSite/images/20160109_154256.jpeg"></div>
-        <div class="alphabet"><img src="../newSite/images/20160520_155636_resized.jpg"></div>
-        <div class="alphabet"><img src="../newSite/images/20160521_125147_resized.jpg"></div>
-        </div>
-        <div class="flex-container">
-        <div class="alphabet"><img src="../newSite/images/20160521_125156_resized.jpg"></div>
-        <div class="alphabet"><img src="../newSite/images/20160521_125156_resized.jpg"></div>
-        <div class="alphabet"><img src="../newSite/images/20160527_134656_resized.jpg"></div>
-        <div class="alphabet"><img src="../newSite/images/20160530_181704_resized.jpg"></div>
-        </div>
-        <div class="flex-container">
-        <div class="alphabet"><img src="../newSite/images/20160530_181705_resized.jpg"></div>
-        <div class="alphabet"><img src="../newSite/images/20160611_160530_resized.jpg"></div>
-        <div class="alphabet"><img src="../newSite/images/20160611_160540_resized.jpg"></div>
-        <div class="alphabet"><img src="../newSite/images/20160628_151943_resized.jpg"></div>
-        </div>
+        
         
         <hr>
        <div class="content">
@@ -58,5 +48,16 @@
     </div>
     <div class="footer">&#169;All Rights Reserved.</div>
         </div>
+        <script>
+        $(document).ready(function(){
+            $('.toggle').on('click',function(){
+                $('.drawer, .drawerclose').css('display','block');
+               
+            });
+            $('.drawerclose').on('click',function(){
+                $('.drawer, .drawerclose').css('display','none');
+            });
+        });
+    </script>
         </body>
         </html>

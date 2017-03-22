@@ -10,10 +10,18 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ruthie" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>Loc's 4 Life test</title>
 </head>
 
 <body>
+     <div class="drawer">
+        <div class="link"><a href="index.html">Home</a></div>
+        <div class="link"><a href="about2.html">About</a></div>
+        <div class="link"><a href="products2.html">Products</a></div>
+        <div class="link"><a href="gallery2.html">Gallery</a></div>
+    </div>
+    <div class="drawerclose"></div>
     <div class="header">
         <div class="wrap">
             <div class="toggle">&#x2630</div>
@@ -149,6 +157,17 @@ function carousel() {
     setTimeout(carousel, 2000); 
 }
 </script>
+<script>
+        $(document).ready(function(){
+            $('.toggle').on('click',function(){
+                $('.drawer, .drawerclose').css('display','block');
+               
+            });
+            $('.drawerclose').on('click',function(){
+                $('.drawer, .drawerclose').css('display','none');
+            });
+        });
+    </script>
 </body>
 
 </html>
