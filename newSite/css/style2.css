@@ -10,6 +10,8 @@ body{
 .toggle{
     line-height:70px;
     background:rgb(255, 248, 232);
+    font-size:30px;
+    margin-right: 10px;
    
 }
 .header{
