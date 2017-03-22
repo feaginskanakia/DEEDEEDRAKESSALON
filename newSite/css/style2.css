@@ -94,6 +94,9 @@ a:hover{
    
     padding-bottom:20px;
 }
+.p2 p{
+   padding-bottom:20px;
+}
 /*start of about page*/
 
 .abouttext{
@@ -154,6 +157,9 @@ a:hover{
 .p1 img{
     width:100%;
 }
+.p2 img{
+    width:100%;
+}
 /*end of open/close*/
 
 /*start of image slider on product page*/
@@ -178,6 +184,10 @@ a:hover{
        flex-direction:row; 
     }
     .p1 img{
+        width:300px;
+        height:300px;
+    }
+    .p2 img{
         width:300px;
         height:300px;
     }
