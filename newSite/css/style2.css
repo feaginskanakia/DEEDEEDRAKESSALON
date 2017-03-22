@@ -121,6 +121,17 @@ a:hover{
     
    
 }
+/* start of drawer togle open/close*/
+.drawer{
+    position:absolute;
+    width:200px;
+    height:100%;
+    background:black;
+    z-index: 100;
+    top:0;
+    left:0;
+}
+/*end of open/close*/
 /*start of image slider on product page*/
 .mySlides {display:none;}
 /*end of slider*/
