@@ -90,6 +90,10 @@ a:hover{
     max-width:800px;
     margin-top:20px;
 }
+.p1 p{
+   
+    padding-bottom:20px;
+}
 /*start of about page*/
 
 .abouttext{
@@ -147,6 +151,9 @@ a:hover{
     padding-right:20px;
     color:rgb(234, 92, 9);
 }
+.p1 img{
+    width:100%;
+}
 /*end of open/close*/
 
 /*start of image slider on product page*/
@@ -169,5 +176,9 @@ a:hover{
     }
     .products{
        flex-direction:row; 
+    }
+    .p1 img{
+        width:300px;
+        height:300px;
     }
     }
