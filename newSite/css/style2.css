@@ -56,7 +56,7 @@ a:hover{
     margin:auto;
     cursor:pointer;
 }
-.content{
+.content-bottom{
     background:rgb(255, 248, 232);
     display:flex;
     justify-content:space-between;
@@ -97,7 +97,7 @@ a:hover{
 .p2 p{
    padding-bottom:20px;
 }
-/*start of about page*/
+/*start of about page
 
 .abouttext{
     
@@ -161,9 +161,7 @@ a:hover{
     width:100%;
 }
 /*end of open/close*/
-.es-carousel ul{
-					display:block;
-				}
+
 /*start of image slider on product page*/
 .mySlides {display:none;}
 /*end of slider*/
@@ -174,7 +172,7 @@ a:hover{
     .nav{
         display:flex;
     }
-    .content{
+    .content-bottom{
         display:flex;
         flex-direction:row;
     }

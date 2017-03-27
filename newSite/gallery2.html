@@ -7,6 +7,7 @@
     <meta name="description" content="Responsive Image Gallery with jQuery" />
         <meta name="keywords" content="jquery, carousel, image gallery, slider, responsive, flexible, fluid, resize, css3" />
 		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" href="css/style2.css" type="text/css" />
 		<link rel="shortcut icon" href="../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/style-gallery.css" />
@@ -93,6 +94,29 @@
 					</div><!-- rg-thumbs -->
 				</div><!-- rg-gallery -->
 				<p class="sub">Want more Shakespeare? <a href="http://www.opensourceshakespeare.org/" target="_blank">http://www.opensourceshakespeare.org/</a></p>
+				
+				<hr style="color:rgb(234, 92, 9);"> <div class="content">
+    <div class="address">Dee Dee Drake <br>Loc's 4 Life<br>5533 Harford Rd.<br>Baltimore Md. 21215</div>
+    <div class="icon">
+        <a href=""><img src="../newSite/images/instagram.png" style="width:50px;"></a>
+        <a href=""><img src="../newSite/images/mail.png" style="width:50px;"></a>
+    </div>
+    <div class="map
+        "><iframe width="200" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:Eik1NTMzIEhhcmZvcmQgUmQsIEJhbHRpbW9yZSwgTUQgMjEyMTQsIFVTQQ&key=AIzaSyDfnQK-hvVbENZNfr48VQ1UPusjDXrPQhQ" allowfullscreen></iframe></div>
+    </div>
+    <div class="footer">&#169;All Rights Reserved.</div>
+    <script>
+        $(document).ready(function(){
+            $('.toggle').on('click',function(){
+                $('.drawer, .drawerclose').css('display','block');
+               
+            });
+            $('.drawerclose').on('click',function(){
+                $('.drawer, .drawerclose').css('display','none');
+            });
+        });
+    </script>
+				
 			</div><!-- content -->
 		</div><!-- container -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
