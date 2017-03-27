@@ -161,7 +161,9 @@ a:hover{
     width:100%;
 }
 /*end of open/close*/
-
+.es-carousel ul{
+					display:block;
+				}
 /*start of image slider on product page*/
 .mySlides {display:none;}
 /*end of slider*/
