@@ -1,6 +1,10 @@
 body{
     background:rgb(255, 248, 232);
 }
+ul li{
+    list-style-type:none;
+    line-height:22px;
+}
 .wrap{
     display:flex;
 }
@@ -20,6 +24,7 @@ body{
     display:flex;
     justify-content:space-between;
     font-family:'Times New Roman';
+    color:rgb(234, 92, 9);
     
 }
 .title{
@@ -97,10 +102,14 @@ a:hover{
 .p2 p{
    padding-bottom:20px;
 }
+.p3 p{
+   
+    padding-bottom:20px;
+}
 /*start of about page*/
 
 .abouttext{
-    
+    font-size:17px;
     margin:10px 30px 0px 20px;
     font-family:'Times New Roman';
     
